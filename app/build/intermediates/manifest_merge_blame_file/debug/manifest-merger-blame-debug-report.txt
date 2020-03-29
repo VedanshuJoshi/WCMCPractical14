@@ -1,0 +1,64 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.tensorflow.lite.codelabs.digitclassifier"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->E:\WCMC_17IT009-master\WCMC_17IT009-master\Practicals\WCMC_PR14_17IT009\WCMC_PR14_17IT009\app\src\main\AndroidManifest.xml:6:3-15
+8        android:minSdkVersion="21"
+8-->E:\WCMC_17IT009-master\WCMC_17IT009-master\Practicals\WCMC_PR14_17IT009\WCMC_PR14_17IT009\app\src\main\AndroidManifest.xml:6:3-15
+9        android:targetSdkVersion="28" />
+9-->E:\WCMC_17IT009-master\WCMC_17IT009-master\Practicals\WCMC_PR14_17IT009\WCMC_PR14_17IT009\app\src\main\AndroidManifest.xml:6:3-15
+10
+11    <application
+11-->E:\WCMC_17IT009-master\WCMC_17IT009-master\Practicals\WCMC_PR14_17IT009\WCMC_PR14_17IT009\app\src\main\AndroidManifest.xml:8:3-24:17
+12        android:allowBackup="true"
+12-->E:\WCMC_17IT009-master\WCMC_17IT009-master\Practicals\WCMC_PR14_17IT009\WCMC_PR14_17IT009\app\src\main\AndroidManifest.xml:9:11-37
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.1.0] C:\Users\Vedanshu\.gradle\caches\transforms-2\files-2.1\0cffda8d27e434c3edd3625c1ac9ccc5\core-1.1.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->E:\WCMC_17IT009-master\WCMC_17IT009-master\Practicals\WCMC_PR14_17IT009\WCMC_PR14_17IT009\app\src\main\AndroidManifest.xml:10:11-45
+16        android:label="Prcatical14"
+16-->E:\WCMC_17IT009-master\WCMC_17IT009-master\Practicals\WCMC_PR14_17IT009\WCMC_PR14_17IT009\app\src\main\AndroidManifest.xml:11:11-38
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->E:\WCMC_17IT009-master\WCMC_17IT009-master\Practicals\WCMC_PR14_17IT009\WCMC_PR14_17IT009\app\src\main\AndroidManifest.xml:12:11-56
+18        android:supportsRtl="true"
+18-->E:\WCMC_17IT009-master\WCMC_17IT009-master\Practicals\WCMC_PR14_17IT009\WCMC_PR14_17IT009\app\src\main\AndroidManifest.xml:13:11-37
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->E:\WCMC_17IT009-master\WCMC_17IT009-master\Practicals\WCMC_PR14_17IT009\WCMC_PR14_17IT009\app\src\main\AndroidManifest.xml:14:11-42
+21        <activity
+21-->E:\WCMC_17IT009-master\WCMC_17IT009-master\Practicals\WCMC_PR14_17IT009\WCMC_PR14_17IT009\app\src\main\AndroidManifest.xml:17:5-23:16
+22            android:name="org.tensorflow.lite.codelabs.digitclassifier.MainActivity"
+22-->E:\WCMC_17IT009-master\WCMC_17IT009-master\Practicals\WCMC_PR14_17IT009\WCMC_PR14_17IT009\app\src\main\AndroidManifest.xml:17:15-43
+23            android:exported="true" >
+23-->E:\WCMC_17IT009-master\WCMC_17IT009-master\Practicals\WCMC_PR14_17IT009\WCMC_PR14_17IT009\app\src\main\AndroidManifest.xml:18:15-38
+24            <intent-filter>
+24-->E:\WCMC_17IT009-master\WCMC_17IT009-master\Practicals\WCMC_PR14_17IT009\WCMC_PR14_17IT009\app\src\main\AndroidManifest.xml:19:7-22:23
+25                <action android:name="android.intent.action.MAIN" />
+25-->E:\WCMC_17IT009-master\WCMC_17IT009-master\Practicals\WCMC_PR14_17IT009\WCMC_PR14_17IT009\app\src\main\AndroidManifest.xml:20:9-60
+25-->E:\WCMC_17IT009-master\WCMC_17IT009-master\Practicals\WCMC_PR14_17IT009\WCMC_PR14_17IT009\app\src\main\AndroidManifest.xml:20:17-58
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->E:\WCMC_17IT009-master\WCMC_17IT009-master\Practicals\WCMC_PR14_17IT009\WCMC_PR14_17IT009\app\src\main\AndroidManifest.xml:21:9-68
+27-->E:\WCMC_17IT009-master\WCMC_17IT009-master\Practicals\WCMC_PR14_17IT009\WCMC_PR14_17IT009\app\src\main\AndroidManifest.xml:21:19-66
+28            </intent-filter>
+29        </activity>
+30        <activity
+30-->[com.github.divyanshub024:AndroidDraw:v0.1] C:\Users\Vedanshu\.gradle\caches\transforms-2\files-2.1\d7310658fe0950c8abca6ea5ccf27dd8\jetified-AndroidDraw-v0.1\AndroidManifest.xml:12:9-14:66
+31            android:name="com.divyanshu.draw.activity.DrawingActivity"
+31-->[com.github.divyanshub024:AndroidDraw:v0.1] C:\Users\Vedanshu\.gradle\caches\transforms-2\files-2.1\d7310658fe0950c8abca6ea5ccf27dd8\jetified-AndroidDraw-v0.1\AndroidManifest.xml:13:13-71
+32            android:theme="@style/Theme.AppCompat.NoActionBar" />
+32-->[com.github.divyanshub024:AndroidDraw:v0.1] C:\Users\Vedanshu\.gradle\caches\transforms-2\files-2.1\d7310658fe0950c8abca6ea5ccf27dd8\jetified-AndroidDraw-v0.1\AndroidManifest.xml:14:13-63
+33
+34        <meta-data
+34-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Vedanshu\.gradle\caches\transforms-2\files-2.1\85c48599af25261f55fa6ec2bc2d85b5\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+35            android:name="com.google.android.gms.version"
+35-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Vedanshu\.gradle\caches\transforms-2\files-2.1\85c48599af25261f55fa6ec2bc2d85b5\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+36            android:value="@integer/google_play_services_version" />
+36-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Vedanshu\.gradle\caches\transforms-2\files-2.1\85c48599af25261f55fa6ec2bc2d85b5\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+37    </application>
+38
+39</manifest>
